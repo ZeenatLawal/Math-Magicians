@@ -3,8 +3,9 @@ const reportWebVitals = (onPerfEntry) => {
     import('web-vitals')
       .then((
         {
-          getCLS, getFID, getFCP, getLCP, getTTFB 
-        }) => {
+          getCLS, getFID, getFCP, getLCP, getTTFB,
+        }
+        ) => {
         getCLS(onPerfEntry);
         getFID(onPerfEntry);
         getFCP(onPerfEntry);
