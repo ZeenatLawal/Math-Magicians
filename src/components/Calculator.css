@@ -1,0 +1,30 @@
+.result {
+  background-color: #858694;
+  padding: 20px 10px 10px 20px;
+  text-align: right;
+  color: white;
+}
+
+.calc {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+button {
+  border-width: 1px;
+  border-color: #e4e4e4;
+  padding: 20px;
+}
+
+.grayBtn {
+  background-color: #e0e0e0;
+}
+
+.orangeBtn {
+  background-color: #f5913e;
+}
+
+#zero {
+  grid-column: 1/3;
+}
