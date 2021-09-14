@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unused-state */
 import React from 'react';
 import '../App.css';
 import './Calculator.css';
@@ -22,10 +21,14 @@ class Calculator extends React.Component {
   };
 
   render() {
-    const { total } = this.state;
+    const { total, operation, next } = this.state;
     return (
       <div>
-        <p className="result">{total}</p>
+        <p className="result">
+          <span>{total}</span>
+          <span>{operation}</span>
+          <span>{next}</span>
+        </p>
         <div className="calc">
           <button type="button" className="grayBtn" name="AC" onClick={(e) => this.handleEvent(e.target.name)}>AC</button>
           <button type="button" className="grayBtn" name="+/-" onClick={(e) => this.handleEvent(e.target.name)}>+/-</button>
