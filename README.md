@@ -1,6 +1,7 @@
 # Math-Magicians
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and also read random math-related quotes.
 
+![screenshot](./images/calc.png)
 
 ## Built With
 
@@ -22,7 +23,7 @@ TBA
 - Run `npm install`
 - Run `npm run build`
 - Run `npm start` to launch the server.
-
+- Run `npm run test` to run the test cases.
 
 ## Author
 
