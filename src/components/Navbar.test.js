@@ -7,7 +7,7 @@ it('renders correctly', () => {
     .create(
       <Router>
         <NavLink to="/">Home</NavLink>
-      </Router>
+      </Router>,
     )
     .toJSON();
   expect(navbar).toMatchSnapshot();
@@ -18,7 +18,7 @@ it('renders correctly', () => {
     .create(
       <Router>
         <NavLink to="/calculator">Calculator</NavLink>
-      </Router>
+      </Router>,
     )
     .toJSON();
   expect(navbar).toMatchSnapshot();
