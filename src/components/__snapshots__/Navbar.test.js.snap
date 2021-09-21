@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  aria-current="page"
+  className="active"
+  href="/"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Home
+</a>
+`;
+
+exports[`renders correctly 2`] = `
+<a
+  aria-current={null}
+  href="/calculator"
+  onClick={[Function]}
+>
+  Calculator
+</a>
+`;
