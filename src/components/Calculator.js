@@ -18,7 +18,7 @@ const Calculator = () => {
     <div className="calcContainer">
       <h1>Let&#39;s do some math!</h1>
       <div className="calcDiv">
-        <p className="result">
+        <p className="result" role="zeroRole">
           <span>{state.total}</span>
           <span>{state.operation}</span>
           <span>{state.next}</span>
