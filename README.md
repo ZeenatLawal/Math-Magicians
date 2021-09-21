@@ -1,15 +1,15 @@
 # Math-Magicians
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and also read random math-related quotes.
 
-![screenshot](./images/calc.png)
+![screenshot](./images/Math-Magicians.png)
 
 ## Built With
 
-- React
+- ReactJS
 
 ## Live demo
 
-TBA
+[Math Magicians](https://zeenatlawal.github.io/Math-Magicians/)
 
 ## Getting Started
 
@@ -21,7 +21,6 @@ TBA
 - Open the folder with your code editor
 - Create a branch to work on
 - Run `npm install`
-- Run `npm run build`
 - Run `npm start` to launch the server.
 - Run `npm run test` to run the test cases.
 
