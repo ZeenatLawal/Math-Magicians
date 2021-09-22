@@ -29,7 +29,7 @@ describe('calculate function', () => {
     };
     const buttonName = '=';
     expect(calculate(obj, buttonName).total).toBe('5');
-  })
+  });
 
   test('clears the objs when AC is called', () => {
     const obj = {
@@ -39,5 +39,5 @@ describe('calculate function', () => {
     };
     const buttonName = 'AC';
     expect(calculate(obj, buttonName).total).toBe(0);
-  })
+  });
 });
