@@ -20,4 +20,24 @@ describe('calculate function', () => {
     const buttonName = '2';
     expect(calculate(obj, buttonName).next).toBe('32');
   });
+
+  test('performs addition when = is called', () => {
+    const obj = {
+      total: '3',
+      next: '2',
+      operation: '+',
+    };
+    const buttonName = '=';
+    expect(calculate(obj, buttonName).total).toBe('5');
+  })
+
+  test('clears the objs when AC is called', () => {
+    const obj = {
+      total: '3',
+      next: '2',
+      operation: '+',
+    };
+    const buttonName = 'AC';
+    expect(calculate(obj, buttonName).total).toBe(0);
+  })
 });
