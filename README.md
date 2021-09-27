@@ -9,8 +9,9 @@
 
 ## Live demo
 
-- GitHub Page [Math Magicians](https://zeenatlawal.github.io/Math-Magicians/)
-- Heroku [Math Magicians](https://math-magicians-zee.herokuapp.com/)
+- [Math Magicians](https://zeenatlawal.github.io/Math-Magicians/)
+- [Math Magicians on Heroku](https://math-magicians-zee.herokuapp.com/)
+- [Math Magicians on Netlify](https://math-magicians-zee.netlify.app/)
 
 ## Getting Started
 
